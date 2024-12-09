@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_UserInfo`;
+DROP VIEW IF EXISTS `View_UserInfo`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_UserInfo` AS select `A`.`AccountID` AS `AccountID`,`A`.`UID` AS `UID`,`A`.`Accounts` AS `Accounts`,`A`.`UserPwd` AS `UserPwd`,`A`.`NickName` AS `NickName`,`A`.`UserStatus` AS `UserStatus`,`A`.`CreateUser` AS `CreateUser`,`A`.`CreateDate` AS `CreateDate`,`A`.`SignIP` AS `SignIP`,`A`.`LastEditUser` AS `LastEditUser`,`A`.`LastEditDate` AS `LastEditDate`,`A`.`UserType` AS `UserType`,`A`.`Mark` AS `Mark`,`A`.`IsDelete` AS `IsDelete`,`A`.`LastloginTime` AS `LastloginTime`,`A`.`Whether` AS `Whether`,`A`.`IdentityPassword` AS `IdentityPassword`,`B`.`Accounts` AS `UserAccount` from (`Sys_UserInfo` `A` left join `Sys_UserInfo` `B` on((`B`.`AccountID` = `A`.`UID`)));
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

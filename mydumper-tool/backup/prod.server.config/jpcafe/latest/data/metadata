@@ -1,0 +1,751 @@
+# Started dump at: 2024-12-08 06:28:51
+[config]
+quote_character = BACKTICK
+
+[myloader_session_variables]
+SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION' /*!40101
+
+[replication]
+# relay_master_log_file = 'mysql-bin.000359'
+# exec_master_log_pos = 18283088
+# Executed_Gtid_Set = 4006f697-9353-11ee-9d13-42010a35000a:1-20949398
+# Replica_IO_State = 'Waiting for source to send event'
+# Source_Host = '10.53.0.9'
+# Source_User = 'cloudsqlreplica'
+# Source_Port = 3306
+# Connect_Retry = 60
+# Source_Log_File = 'mysql-bin.000359'
+# Read_Source_Log_Pos = 18285880
+# Relay_Log_File = 'relay-log.000006'
+# Relay_Log_Pos = 18283304
+# Relay_Source_Log_File = 'mysql-bin.000359'
+# Replica_IO_Running = 'Yes'
+# Replica_SQL_Running = 'Yes'
+# Replicate_Do_DB = ''
+# Replicate_Ignore_DB = ''
+# Replicate_Do_Table = ''
+# Replicate_Ignore_Table = ''
+# Replicate_Wild_Do_Table = ''
+# Replicate_Wild_Ignore_Table = ''
+# Last_Errno = 0
+# Last_Error = ''
+# Skip_Counter = 0
+# Exec_Source_Log_Pos = 18283088
+# Relay_Log_Space = 18286387
+# Until_Condition = 'None'
+# Until_Log_File = ''
+# Until_Log_Pos = 0
+# Source_SSL_Allowed = 'Yes'
+# Source_SSL_CA_File = 'master_server_ca.pem'
+# Source_SSL_CA_Path = '/mysql/datadir'
+# Source_SSL_Cert = 'replica_cert.pem'
+# Source_SSL_Cipher = ''
+# Source_SSL_Key = 'replica_pkey.pem'
+# Seconds_Behind_Source = 0
+# Source_SSL_Verify_Server_Cert = 'No'
+# Last_IO_Errno = 0
+# Last_IO_Error = ''
+# Last_SQL_Errno = 0
+# Last_SQL_Error = ''
+# Replicate_Ignore_Server_Ids = ''
+# Source_Server_Id = 865613867
+# Source_UUID = '4006f697-9353-11ee-9d13-42010a35000a'
+# Source_Info_File = 'mysql.slave_master_info'
+# SQL_Delay = 0
+# SQL_Remaining_Delay = (null)
+# Replica_SQL_Running_State = 'Replica has read all relay log; waiting for more updates'
+# Source_Retry_Count = 86400
+# Source_Bind = ''
+# Last_IO_Error_Timestamp = ''
+# Last_SQL_Error_Timestamp = ''
+# Source_SSL_Crl = ''
+# Source_SSL_Crlpath = ''
+# Retrieved_Gtid_Set = '4006f697-9353-11ee-9d13-42010a35000a:20690431-20949398'
+# Executed_Gtid_Set = '4006f697-9353-11ee-9d13-42010a35000a:1-20949398'
+# Auto_Position = 1
+# Replicate_Rewrite_DB = ''
+# Channel_Name = ''
+# Source_TLS_Version = ''
+# Source_public_key_path = ''
+# Get_Source_public_key = 0
+# Network_Namespace = ''
+# myloader_exec_reset_slave = 0 # 1 means execute the command
+# myloader_exec_change_master = 0 # 1 means execute the command
+# myloader_exec_start_slave = 0 # 1 means execute the command
+
+[`flyway`.`flyway_schema_history`]
+real_table_name=flyway_schema_history
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202403`]
+real_table_name=bridge_order_202403
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202404`]
+real_table_name=bridge_order_202404
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202405`]
+real_table_name=bridge_order_202405
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202406`]
+real_table_name=bridge_order_202406
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202407`]
+real_table_name=bridge_order_202407
+rows = 0
+
+[`hogo_br_play`.`bridge_order_202408`]
+real_table_name=bridge_order_202408
+rows = 0
+
+[`hogo_br_play`.`bridge_order_backlog`]
+real_table_name=bridge_order_backlog
+rows = 0
+
+[`hogo_br_play`.`bridge_order`]
+real_table_name=bridge_order
+rows = 0
+
+[`hogo_br_play`.`cq9_log`]
+real_table_name=cq9_log
+rows = 0
+
+[`hogo_br_play`.`evo_log`]
+real_table_name=evo_log
+rows = 0
+
+[`hogo_br_play`.`fc_log`]
+real_table_name=fc_log
+rows = 0
+
+[`hogo_br_play`.`migrations`]
+real_table_name=migrations
+rows = 0
+
+[`hogo_br_play`.`pg_log`]
+real_table_name=pg_log
+rows = 0
+
+[`hogo_br_play`.`playlist_1000`]
+real_table_name=playlist_1000
+rows = 0
+
+[`hogo_br_play`.`playlist_1001`]
+real_table_name=playlist_1001
+rows = 0
+
+[`hogo_br_play`.`playlist_1002`]
+real_table_name=playlist_1002
+rows = 0
+
+[`hogo_br_play`.`playlist_1003`]
+real_table_name=playlist_1003
+rows = 0
+
+[`hogo_br_play`.`playlist_1004`]
+real_table_name=playlist_1004
+rows = 0
+
+[`hogo_br_play`.`playlist_1005`]
+real_table_name=playlist_1005
+rows = 0
+
+[`hogo_br_play`.`playlist_1006`]
+real_table_name=playlist_1006
+rows = 0
+
+[`hogo_br_play`.`playlist_1007`]
+real_table_name=playlist_1007
+rows = 0
+
+[`hogo_br_play`.`playlist_1008`]
+real_table_name=playlist_1008
+rows = 0
+
+[`hogo_br_play`.`playlist_1009`]
+real_table_name=playlist_1009
+rows = 0
+
+[`hogo_br_play`.`playlist_1010`]
+real_table_name=playlist_1010
+rows = 0
+
+[`hogo_br_play`.`playlist_1011`]
+real_table_name=playlist_1011
+rows = 0
+
+[`hogo_br_play`.`playlist_1012`]
+real_table_name=playlist_1012
+rows = 0
+
+[`hogo_br_play`.`playlist_1013`]
+real_table_name=playlist_1013
+rows = 0
+
+[`hogo_br_play`.`playlist_1014`]
+real_table_name=playlist_1014
+rows = 0
+
+[`hogo_br_play`.`playlist_1015`]
+real_table_name=playlist_1015
+rows = 0
+
+[`hogo_br_play`.`playlist_1016`]
+real_table_name=playlist_1016
+rows = 0
+
+[`hogo_br_play`.`playlist_1017`]
+real_table_name=playlist_1017
+rows = 0
+
+[`hogo_br_play`.`playlist_1018`]
+real_table_name=playlist_1018
+rows = 0
+
+[`hogo_br_play`.`playlist_1019`]
+real_table_name=playlist_1019
+rows = 0
+
+[`hogo_br_play`.`playlist_1020`]
+real_table_name=playlist_1020
+rows = 0
+
+[`hogo_br_play`.`playlist_1021`]
+real_table_name=playlist_1021
+rows = 0
+
+[`hogo_br_play`.`playlist_1022`]
+real_table_name=playlist_1022
+rows = 0
+
+[`hogo_br_play`.`playlist_1023`]
+real_table_name=playlist_1023
+rows = 0
+
+[`hogo_br_play`.`playlist_1024`]
+real_table_name=playlist_1024
+rows = 0
+
+[`hogo_br_play`.`playlist_1025`]
+real_table_name=playlist_1025
+rows = 0
+
+[`hogo_br_play`.`playlist_1026`]
+real_table_name=playlist_1026
+rows = 0
+
+[`hogo_br_play`.`playlist_1027`]
+real_table_name=playlist_1027
+rows = 0
+
+[`hogo_br_play`.`playlist_1028`]
+real_table_name=playlist_1028
+rows = 0
+
+[`hogo_br_play`.`playlist_1029`]
+real_table_name=playlist_1029
+rows = 0
+
+[`hogo_br_play`.`playlist_1030`]
+real_table_name=playlist_1030
+rows = 0
+
+[`hogo_br_play`.`playlist_1031`]
+real_table_name=playlist_1031
+rows = 0
+
+[`hogo_br_play`.`playlist_1032`]
+real_table_name=playlist_1032
+rows = 0
+
+[`hogo_br_play`.`playlist_1033`]
+real_table_name=playlist_1033
+rows = 0
+
+[`hogo_br_play`.`playlist_1034`]
+real_table_name=playlist_1034
+rows = 0
+
+[`hogo_br_play`.`playlist_1035`]
+real_table_name=playlist_1035
+rows = 0
+
+[`hogo_br_play`.`playlist_1036`]
+real_table_name=playlist_1036
+rows = 0
+
+[`hogo_br_play`.`playlist_1037`]
+real_table_name=playlist_1037
+rows = 0
+
+[`hogo_br_play`.`playlist_1038`]
+real_table_name=playlist_1038
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202403`]
+real_table_name=playlist_all_202403
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202404`]
+real_table_name=playlist_all_202404
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202405`]
+real_table_name=playlist_all_202405
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202406`]
+real_table_name=playlist_all_202406
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202407`]
+real_table_name=playlist_all_202407
+rows = 0
+
+[`hogo_br_play`.`playlist_all_202408`]
+real_table_name=playlist_all_202408
+rows = 0
+
+[`hogo_br_play`.`playlist_all_backlog`]
+real_table_name=playlist_all_backlog
+rows = 0
+
+[`hogo_br_play`.`playlist_all`]
+real_table_name=playlist_all
+rows = 0
+
+[`hogo_br_play`.`playlist_bet_temp`]
+real_table_name=playlist_bet_temp
+rows = 0
+
+[`hogo_br_play`.`pp_log`]
+real_table_name=pp_log
+rows = 0
+
+[`hogo_br_play`.`vp_log`]
+real_table_name=vp_log
+rows = 0
+
+[`hogo_br_play`.`vp_order_202402`]
+real_table_name=vp_order_202402
+rows = 0
+
+[`hogo_br_play`.`vp_order_202403`]
+real_table_name=vp_order_202403
+rows = 0
+
+[`hogo_br_play`.`vp_order_202404`]
+real_table_name=vp_order_202404
+rows = 0
+
+[`hogo_br_play`.`vp_order_202405`]
+real_table_name=vp_order_202405
+rows = 0
+
+[`hogo_br_play`.`vp_order_202406`]
+real_table_name=vp_order_202406
+rows = 0
+
+[`hogo_br_play`.`vp_order_202407`]
+real_table_name=vp_order_202407
+rows = 0
+
+[`hogo_br_play`.`vp_order_202408`]
+real_table_name=vp_order_202408
+rows = 0
+
+[`hogo_br_play`.`vp_order`]
+real_table_name=vp_order
+rows = 0
+
+[`hogo_br_sale`.`activities`]
+real_table_name=activities
+rows = 0
+
+[`hogo_br_sale`.`activity_attributes`]
+real_table_name=activity_attributes
+rows = 0
+
+[`hogo_br_sale`.`activity_integrations`]
+real_table_name=activity_integrations
+rows = 0
+
+[`hogo_br_sale`.`activity_user_variable`]
+real_table_name=activity_user_variable
+rows = 0
+
+[`hogo_br_sale`.`admin_columns`]
+real_table_name=admin_columns
+rows = 0
+
+[`hogo_br_sale`.`admin_menu`]
+real_table_name=admin_menu
+rows = 0
+
+[`hogo_br_sale`.`admin_operation_log`]
+real_table_name=admin_operation_log
+rows = 0
+
+[`hogo_br_sale`.`admin_permission_menu`]
+real_table_name=admin_permission_menu
+rows = 0
+
+[`hogo_br_sale`.`admin_permissions`]
+real_table_name=admin_permissions
+rows = 0
+
+[`hogo_br_sale`.`admin_role_column`]
+real_table_name=admin_role_column
+rows = 0
+
+[`hogo_br_sale`.`admin_role_menu20240227`]
+real_table_name=admin_role_menu20240227
+rows = 0
+
+[`hogo_br_sale`.`admin_role_menu`]
+real_table_name=admin_role_menu
+rows = 0
+
+[`hogo_br_sale`.`admin_role_permissions`]
+real_table_name=admin_role_permissions
+rows = 0
+
+[`hogo_br_sale`.`admin_role_users`]
+real_table_name=admin_role_users
+rows = 0
+
+[`hogo_br_sale`.`admin_roles`]
+real_table_name=admin_roles
+rows = 0
+
+[`hogo_br_sale`.`admin_users`]
+real_table_name=admin_users
+rows = 0
+
+[`hogo_br_sale`.`announcements`]
+real_table_name=announcements
+rows = 0
+
+[`hogo_br_sale`.`bank_account_attributes`]
+real_table_name=bank_account_attributes
+rows = 0
+
+[`hogo_br_sale`.`bank_accounts`]
+real_table_name=bank_accounts
+rows = 0
+
+[`hogo_br_sale`.`bank_attributes`]
+real_table_name=bank_attributes
+rows = 0
+
+[`hogo_br_sale`.`banks`]
+real_table_name=banks
+rows = 0
+
+[`hogo_br_sale`.`banners`]
+real_table_name=banners
+rows = 0
+
+[`hogo_br_sale`.`brokerage_date`]
+real_table_name=brokerage_date
+rows = 0
+
+[`hogo_br_sale`.`brokerage`]
+real_table_name=brokerage
+rows = 0
+
+[`hogo_br_sale`.`channel_attributes_keys`]
+real_table_name=channel_attributes_keys
+rows = 0
+
+[`hogo_br_sale`.`channel_attributes`]
+real_table_name=channel_attributes
+rows = 0
+
+[`hogo_br_sale`.`channel_edges`]
+real_table_name=channel_edges
+rows = 0
+
+[`hogo_br_sale`.`channel_wallet_credit`]
+real_table_name=channel_wallet_credit
+rows = 0
+
+[`hogo_br_sale`.`channel_wallet_ledgers`]
+real_table_name=channel_wallet_ledgers
+rows = 0
+
+[`hogo_br_sale`.`channel_wallet_order`]
+real_table_name=channel_wallet_order
+rows = 0
+
+[`hogo_br_sale`.`channel_wallet_statistics`]
+real_table_name=channel_wallet_statistics
+rows = 0
+
+[`hogo_br_sale`.`channel_wallets`]
+real_table_name=channel_wallets
+rows = 0
+
+[`hogo_br_sale`.`channels`]
+real_table_name=channels
+rows = 0
+
+[`hogo_br_sale`.`check_in_awards`]
+real_table_name=check_in_awards
+rows = 0
+
+[`hogo_br_sale`.`check_in_users`]
+real_table_name=check_in_users
+rows = 0
+
+[`hogo_br_sale`.`daily_report_all`]
+real_table_name=daily_report_all
+rows = 0
+
+[`hogo_br_sale`.`daily_report_user`]
+real_table_name=daily_report_user
+rows = 0
+
+[`hogo_br_sale`.`domains`]
+real_table_name=domains
+rows = 0
+
+[`hogo_br_sale`.`exchange_rates`]
+real_table_name=exchange_rates
+rows = 0
+
+[`hogo_br_sale`.`favicons`]
+real_table_name=favicons
+rows = 0
+
+[`hogo_br_sale`.`footers`]
+real_table_name=footers
+rows = 0
+
+[`hogo_br_sale`.`game_integrations`]
+real_table_name=game_integrations
+rows = 0
+
+[`hogo_br_sale`.`games`]
+real_table_name=games
+rows = 0
+
+[`hogo_br_sale`.`gateway_attributes`]
+real_table_name=gateway_attributes
+rows = 0
+
+[`hogo_br_sale`.`gateway_banks`]
+real_table_name=gateway_banks
+rows = 0
+
+[`hogo_br_sale`.`gateway_bindings`]
+real_table_name=gateway_bindings
+rows = 0
+
+[`hogo_br_sale`.`gateway_integrations`]
+real_table_name=gateway_integrations
+rows = 0
+
+[`hogo_br_sale`.`gateways`]
+real_table_name=gateways
+rows = 0
+
+[`hogo_br_sale`.`invite_reward_logs`]
+real_table_name=invite_reward_logs
+rows = 0
+
+[`hogo_br_sale`.`job_batches`]
+real_table_name=job_batches
+rows = 0
+
+[`hogo_br_sale`.`jobs`]
+real_table_name=jobs
+rows = 0
+
+[`hogo_br_sale`.`label_users`]
+real_table_name=label_users
+rows = 0
+
+[`hogo_br_sale`.`labels`]
+real_table_name=labels
+rows = 0
+
+[`hogo_br_sale`.`logos`]
+real_table_name=logos
+rows = 0
+
+[`hogo_br_sale`.`migrations`]
+real_table_name=migrations
+rows = 0
+
+[`hogo_br_sale`.`oauth_access_tokens`]
+real_table_name=oauth_access_tokens
+rows = 0
+
+[`hogo_br_sale`.`oauth_auth_codes`]
+real_table_name=oauth_auth_codes
+rows = 0
+
+[`hogo_br_sale`.`oauth_clients`]
+real_table_name=oauth_clients
+rows = 0
+
+[`hogo_br_sale`.`oauth_personal_access_clients`]
+real_table_name=oauth_personal_access_clients
+rows = 0
+
+[`hogo_br_sale`.`oauth_refresh_tokens`]
+real_table_name=oauth_refresh_tokens
+rows = 0
+
+[`hogo_br_sale`.`one_touch_users`]
+real_table_name=one_touch_users
+rows = 0
+
+[`hogo_br_sale`.`password_resets`]
+real_table_name=password_resets
+rows = 0
+
+[`hogo_br_sale`.`promotion`]
+real_table_name=promotion
+rows = 0
+
+[`hogo_br_sale`.`redemptions`]
+real_table_name=redemptions
+rows = 0
+
+[`hogo_br_sale`.`referral_edges`]
+real_table_name=referral_edges
+rows = 0
+
+[`hogo_br_sale`.`referral_statistics`]
+real_table_name=referral_statistics
+rows = 0
+
+[`hogo_br_sale`.`referrals`]
+real_table_name=referrals
+rows = 0
+
+[`hogo_br_sale`.`rely_bet`]
+real_table_name=rely_bet
+rows = 0
+
+[`hogo_br_sale`.`shortcuts`]
+real_table_name=shortcuts
+rows = 0
+
+[`hogo_br_sale`.`styles`]
+real_table_name=styles
+rows = 0
+
+[`hogo_br_sale`.`sys_cron_partition`]
+real_table_name=sys_cron_partition
+rows = 0
+
+[`hogo_br_sale`.`sys_links`]
+real_table_name=sys_links
+rows = 0
+
+[`hogo_br_sale`.`sys_prolog`]
+real_table_name=sys_prolog
+rows = 0
+
+[`hogo_br_sale`.`topups`]
+real_table_name=topups
+rows = 0
+
+[`hogo_br_sale`.`treasure_chest_rewards`]
+real_table_name=treasure_chest_rewards
+rows = 0
+
+[`hogo_br_sale`.`treasure_chests`]
+real_table_name=treasure_chests
+rows = 0
+
+[`hogo_br_sale`.`user_login_logs`]
+real_table_name=user_login_logs
+rows = 0
+
+[`hogo_br_sale`.`user_online_detail`]
+real_table_name=user_online_detail
+rows = 0
+
+[`hogo_br_sale`.`user_ranking_list_total`]
+real_table_name=user_ranking_list_total
+rows = 0
+
+[`hogo_br_sale`.`user_ranking_list`]
+real_table_name=user_ranking_list
+rows = 0
+
+[`hogo_br_sale`.`user_statistics`]
+real_table_name=user_statistics
+rows = 0
+
+[`hogo_br_sale`.`user_vip_award_date`]
+real_table_name=user_vip_award_date
+rows = 0
+
+[`hogo_br_sale`.`user_vip_award`]
+real_table_name=user_vip_award
+rows = 0
+
+[`hogo_br_sale`.`users`]
+real_table_name=users
+rows = 0
+
+[`hogo_br_sale`.`vips`]
+real_table_name=vips
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202402`]
+real_table_name=wallet_ledgers_202402
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202403`]
+real_table_name=wallet_ledgers_202403
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202404`]
+real_table_name=wallet_ledgers_202404
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202405`]
+real_table_name=wallet_ledgers_202405
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202406`]
+real_table_name=wallet_ledgers_202406
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202407`]
+real_table_name=wallet_ledgers_202407
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers_202408`]
+real_table_name=wallet_ledgers_202408
+rows = 0
+
+[`hogo_br_sale`.`wallet_ledgers`]
+real_table_name=wallet_ledgers
+rows = 0
+
+[`hogo_br_sale`.`wallet_statistics`]
+real_table_name=wallet_statistics
+rows = 0
+
+[`hogo_br_sale`.`wallets`]
+real_table_name=wallets
+rows = 0
+
+[`hogo_br_sale`.`white_ip_list`]
+real_table_name=white_ip_list
+rows = 0
+
+[`hogo_br_sale`.`withdrawals`]
+real_table_name=withdrawals
+rows = 0
+# Finished dump at: 2024-12-08 06:29:03

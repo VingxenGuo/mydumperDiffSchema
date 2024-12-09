@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `finance_currency` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `ChannelID` varchar(4000) DEFAULT NULL,
+  `Currency` varchar(20) DEFAULT NULL,
+  `ExchangeRate` decimal(18,6) DEFAULT NULL,
+  `RateCalculate` int(11) DEFAULT NULL,
+  `AddMonth` varchar(7) DEFAULT NULL,
+  `CreateTime` datetime DEFAULT CURRENT_TIMESTAMP,
+  `UpdateTime` datetime DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`) USING BTREE,
+  KEY `index_UpdateTime` (`UpdateTime`) USING BTREE
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4;

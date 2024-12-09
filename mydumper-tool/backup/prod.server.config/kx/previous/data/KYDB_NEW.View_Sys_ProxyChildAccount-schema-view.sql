@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_Sys_ProxyChildAccount`;
+DROP VIEW IF EXISTS `View_Sys_ProxyChildAccount`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_Sys_ProxyChildAccount` AS select `Sys_ProxyChildAccount`.`ChildID` AS `ChildID`,`Sys_ProxyChildAccount`.`ChannelID` AS `ChannelID`,`Sys_ProxyChildAccount`.`Accounts` AS `Accounts`,`Sys_ProxyChildAccount`.`UserPWD` AS `UserPWD`,`Sys_ProxyChildAccount`.`NickName` AS `NickName`,`Sys_ProxyChildAccount`.`UserStatus` AS `UserStatus`,`Sys_ProxyChildAccount`.`CreateUser` AS `CreateUser`,`Sys_ProxyChildAccount`.`CreateDate` AS `CreateDate`,`Sys_ProxyChildAccount`.`LoginIP` AS `LoginIP`,`Sys_ProxyChildAccount`.`Mark` AS `Mark`,`Sys_ProxyChildAccount`.`IsDelete` AS `IsDelete`,`Sys_ProxyChildAccount`.`LastloginTime` AS `LastloginTime`,`Sys_ProxyAccount`.`Accounts` AS `UserAccount` from (`Sys_ProxyAccount` join `Sys_ProxyChildAccount` on((`Sys_ProxyChildAccount`.`ChannelID` = `Sys_ProxyAccount`.`ChannelID`)));
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

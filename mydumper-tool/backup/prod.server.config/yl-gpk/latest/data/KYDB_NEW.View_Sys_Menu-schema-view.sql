@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_Sys_Menu`;
+DROP VIEW IF EXISTS `View_Sys_Menu`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_Sys_Menu` AS select `A`.`ID` AS `ID`,`A`.`MenuTitle` AS `MenuTitle`,`A`.`MneuTitleEN` AS `MneuTitleEN`,`A`.`PID` AS `PID`,(case `A`.`PID` when 0 then '一级菜单' else `B`.`MenuTitle` end) AS `PMenuTitle`,`A`.`MenuLink` AS `MenuLink`,`A`.`MenuIcon` AS `MenuIcon`,`A`.`Mark` AS `Mark`,`A`.`Status` AS `Status`,`A`.`IsDelete` AS `IsDelete`,`A`.`Sort` AS `Sort` from (`Sys_Menu` `A` left join `Sys_Menu` `B` on((`A`.`PID` = `B`.`ID`))) order by `A`.`Sort`;
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

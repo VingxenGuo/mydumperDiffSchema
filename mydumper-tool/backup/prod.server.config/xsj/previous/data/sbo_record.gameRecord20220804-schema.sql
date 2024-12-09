@@ -1,0 +1,42 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `gameRecord20220804` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `GameID` bigint(20) DEFAULT NULL,
+  `Accounts` varchar(190) DEFAULT NULL,
+  `ServerID` int(11) DEFAULT NULL,
+  `RoomType` int(11) DEFAULT NULL,
+  `KindID` int(11) DEFAULT NULL,
+  `TableID` int(11) DEFAULT NULL,
+  `ChairID` int(11) DEFAULT NULL,
+  `UserCount` int(11) DEFAULT NULL,
+  `HandCard` varchar(10000) DEFAULT NULL,
+  `CellScore` bigint(20) DEFAULT NULL,
+  `AllBet` bigint(20) DEFAULT NULL,
+  `Profit` bigint(20) DEFAULT NULL,
+  `KillProfit` bigint(20) DEFAULT NULL,
+  `DiveProfit` bigint(20) DEFAULT NULL,
+  `NormalProfit` bigint(20) DEFAULT NULL,
+  `CurScore` bigint(20) DEFAULT NULL,
+  `TakeScore` bigint(20) DEFAULT NULL,
+  `Revenue` int(11) DEFAULT NULL,
+  `GameStartTime` datetime DEFAULT NULL,
+  `GameEndTime` datetime DEFAULT NULL,
+  `CardValue` varchar(1000) DEFAULT NULL,
+  `OpValue` bigint(20) DEFAULT NULL,
+  `ChannelID` int(11) DEFAULT NULL,
+  `LineCode` varchar(50) DEFAULT NULL,
+  `GameUserNO` varchar(50) DEFAULT NULL,
+  `CreateTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `uk_gameuserno` (`GameUserNO`) USING BTREE,
+  KEY `index_gameendtime` (`GameEndTime`) USING BTREE,
+  KEY `index_gameendtime_kindId` (`GameEndTime`,`KindID`) USING BTREE,
+  KEY `index_gameendtime_channel` (`GameEndTime`,`ChannelID`) USING BTREE,
+  KEY `index_gameendtime_account` (`GameEndTime`,`Accounts`) USING BTREE,
+  KEY `index_gameendtime_kindId_serverId` (`GameEndTime`,`KindID`,`ServerID`) USING BTREE,
+  KEY `index_accounts` (`Accounts`) USING BTREE,
+  KEY `index_gamestarttime_account` (`GameStartTime`,`Accounts`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

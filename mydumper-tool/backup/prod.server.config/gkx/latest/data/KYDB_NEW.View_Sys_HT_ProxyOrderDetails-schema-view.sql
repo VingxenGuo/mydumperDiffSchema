@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_Sys_HT_ProxyOrderDetails`;
+DROP VIEW IF EXISTS `View_Sys_HT_ProxyOrderDetails`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_Sys_HT_ProxyOrderDetails` AS select `A`.`OrderID` AS `OrderID`,`B`.`UID` AS `UID`,(case length(ifnull(`C`.`Accounts`,'')) when 0 then 'system' else `C`.`Accounts` end) AS `PChannelName`,`A`.`ChannelID` AS `ChannelID`,`B`.`Accounts` AS `ChannelName`,`A`.`OrderTime` AS `OrderTime`,`A`.`OrderType` AS `OrderType`,`A`.`CurScore` AS `CurScore`,`A`.`AddScore` AS `AddScore`,`A`.`NewScore` AS `NewScore`,`A`.`OrderIP` AS `OrderIP`,`A`.`CreateUser` AS `CreateUser`,`A`.`OrderObject` AS `OrderObject` from ((`Sys_HT_ProxyOrderDetails` `A` left join `Sys_ProxyAccount` `B` on((`A`.`ChannelID` = `B`.`ChannelID`))) left join `Sys_ProxyAccount` `C` on((`B`.`UID` = `C`.`ChannelID`))) where (`A`.`OrderStatus` = 0);
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

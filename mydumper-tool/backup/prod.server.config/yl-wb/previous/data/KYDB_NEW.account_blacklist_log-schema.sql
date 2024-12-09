@@ -1,0 +1,14 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `account_blacklist_log` (
+  `ID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `Account` varchar(190) NOT NULL COMMENT '玩家账号',
+  `ChannelID` int(11) NOT NULL DEFAULT '0',
+  `ActionType` int(11) NOT NULL COMMENT '1:新增, 2:删除',
+  `KillRoomRate` float DEFAULT NULL,
+  `ConfigID` bigint(20) DEFAULT NULL,
+  `CreateTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

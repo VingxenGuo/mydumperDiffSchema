@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_ProxyRoleInfo`;
+DROP VIEW IF EXISTS `View_ProxyRoleInfo`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_ProxyRoleInfo` AS select `a`.`ChildID` AS `ChildID`,`a`.`ChannelID` AS `ChannelID`,`a`.`Accounts` AS `Accounts`,`a`.`UserPWD` AS `UserPWD`,`a`.`NickName` AS `NickName`,`a`.`UserStatus` AS `UserStatus`,`a`.`CreateUser` AS `CreateUser`,`a`.`CreateDate` AS `CreateDate`,`a`.`Mark` AS `Mark`,`a`.`IsDelete` AS `IsDelete`,`a`.`LastloginTime` AS `LastloginTime`,`b`.`RoleID` AS `RoleID`,`c`.`RoleName` AS `RoleName`,count(`d`.`ChildID`) AS `UserCount`,`a`.`UID` AS `UID`,`a`.`Forbidden` AS `Forbidden`,`a`.`LoginIP` AS `LoginIP` from (((`Sys_ProxyChildAccount` `a` left join `Sys_ProxyRoleInfo` `b` on((('' = '') and (`a`.`Accounts` = `b`.`Accounts`)))) left join `Sys_DLRoleInfo` `c` on((('' = '') and (`b`.`RoleID` = `c`.`RoleID`)))) left join `Sys_ProxyChildAccount` `d` on((`a`.`ChannelID` = `d`.`ChildID`))) group by `a`.`ChildID`,`a`.`ChannelID`,`a`.`Accounts`,`a`.`UserPWD`,`a`.`NickName`,`a`.`UserStatus`,`a`.`CreateUser`,`a`.`CreateDate`,`a`.`Mark`,`a`.`IsDelete`,`a`.`LastloginTime`,`b`.`RoleID`,`c`.`RoleName`;
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

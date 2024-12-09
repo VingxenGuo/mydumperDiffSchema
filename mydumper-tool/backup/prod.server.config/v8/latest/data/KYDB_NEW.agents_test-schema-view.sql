@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `agents_test`;
+DROP VIEW IF EXISTS `agents_test`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `agents_test` AS select `game_api`.`agents`.`id` AS `id`,`game_api`.`agents`.`parent` AS `parent`,`game_api`.`agents`.`moneytype` AS `moneytype`,`game_api`.`agents`.`money` AS `money`,`game_api`.`agents`.`whiteip` AS `whiteip`,`game_api`.`agents`.`status` AS `status`,`game_api`.`agents`.`proxyurl` AS `proxyurl`,`game_api`.`agents`.`agent` AS `agent`,`game_api`.`agents`.`desKey` AS `desKey`,`game_api`.`agents`.`md5Key` AS `md5Key`,`game_api`.`agents`.`callbackurl` AS `callbackurl`,`game_api`.`agents`.`lineCodes` AS `lineCodes`,`game_api`.`agents`.`exRate` AS `exRate`,`game_api`.`agents`.`publicId` AS `publicId`,`game_api`.`agents`.`pumping` AS `pumping`,`game_api`.`agents`.`backmain` AS `backmain`,`game_api`.`agents`.`oflinebackurl` AS `oflinebackurl`,`game_api`.`agents`.`createdate` AS `createdate`,`game_api`.`agents`.`feedEnabled` AS `feedEnabled`,`game_api`.`agents`.`logourl` AS `logourl`,`game_api`.`agents`.`timeZone` AS `timeZone`,`game_api`.`agents`.`walletType` AS `wallettype` from `game_api`.`agents`;
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

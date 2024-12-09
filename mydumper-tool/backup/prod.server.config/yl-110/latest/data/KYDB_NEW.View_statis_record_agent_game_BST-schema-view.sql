@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `View_statis_record_agent_game_BST`;
+DROP VIEW IF EXISTS `View_statis_record_agent_game_BST`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `View_statis_record_agent_game_BST` AS select `A`.`StatisDate` AS `StatisDate`,`A`.`ChannelID` AS `ChannelID`,`A`.`GameID` AS `GameID`,(`A`.`WinGold` + `A`.`LostGold`) AS `Profit`,`A`.`CellScore` AS `CellScore`,`A`.`Revenue` AS `Revenue`,`A`.`currency` AS `currency`,`A`.`exchangeRate` AS `exchangeRate`,`B`.`account` AS `ChannelName`,`B`.`accountingFor` AS `AccountingFor`,`B`.`nickname` AS `NickName`,`B`.`uid` AS `UID`,(case `B`.`uid` when 0 then 'system' else `C`.`account` end) AS `PChannelName`,`B`.`createUser` AS `CreateUser`,`B`.`mark` AS `Mark`,`B`.`cooperation` AS `Cooperation`,`B`.`isShowLinecode` AS `Disablelinecode`,(`A`.`WinNum` + `A`.`LostNum`) AS `NotesingleNum`,`B`.`businessAccount` AS `BusinessAccount`,`B`.`type` AS `SingleOrSystem`,`A`.`ActiveUsers` AS `ActiveUsers` from ((`KYStatis`.`statis_record_agent_game_BST` `A` join `KYDB_NEW`.`agent` `B` on((`A`.`ChannelID` = `B`.`id`))) left join `KYDB_NEW`.`agent` `C` on((`B`.`uid` = `C`.`id`)));
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

@@ -1,0 +1,11 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `statis_users_visits` (
+  `account` varchar(190) NOT NULL,
+  `ipLocal` varchar(50) NOT NULL,
+  `createdate` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`account`,`ipLocal`) USING BTREE,
+  KEY `index_ipLocal` (`ipLocal`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
