@@ -1,9 +1,0 @@
-/*!40101 SET NAMES binary*/;
-/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
-/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
-/*!40103 SET TIME_ZONE='+00:00' */;
-CREATE TABLE `gameTagData` (
-  `subTagId` bigint(20) NOT NULL COMMENT '子標籤id 關聯 KYDB_NEW.gameSubTag.id',
-  `gameId` int(10) NOT NULL COMMENT '遊戲 id 關聯 KYDB_NEW.GameInfo.GameID',
-  PRIMARY KEY (`subTagId`,`gameId`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

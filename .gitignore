@@ -1,0 +1,5 @@
+# all wc prod diff result
+./diff-wc-prod-tool/diff_result/
+
+# mydumper tool backup folder
+./mydumper-tool/backup/

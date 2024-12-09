@@ -1,2 +1,0 @@
-2024-10-07 10:12:33 [WARNING] - Using trx_consistency_only, binlog coordinates will not be accurate if you are writing to non transactional tables.
-2024-10-07 10:12:34 [ERROR] - Couldn't acquire global lock, snapshots will not be consistent: Access denied for user 'root'@'%' (using password: YES)

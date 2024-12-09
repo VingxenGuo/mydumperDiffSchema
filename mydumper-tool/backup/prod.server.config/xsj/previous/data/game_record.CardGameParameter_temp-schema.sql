@@ -1,9 +1,0 @@
-/*!40101 SET NAMES binary*/;
-/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
-/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
-/*!40103 SET TIME_ZONE='+00:00' */;
-CREATE TABLE `CardGameParameter_temp` (
-  `game_record_TableName` varchar(100) COLLATE utf8mb4_bin DEFAULT NULL,
-  `GameParameter` varchar(50) COLLATE utf8mb4_bin DEFAULT NULL,
-  `GameID` int(10) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
