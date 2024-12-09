@@ -1,0 +1,52 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `hongb_gameRecord` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT COMMENT 'PK ID',
+  `GameID` bigint(20) DEFAULT NULL COMMENT '房间流水号',
+  `Accounts` varchar(190) DEFAULT NULL COMMENT '代理ID_玩家账号',
+  `ServerID` int(11) DEFAULT NULL COMMENT '服务器ID',
+  `RoomType` int(11) DEFAULT NULL COMMENT '房间类型',
+  `KindID` int(11) DEFAULT NULL COMMENT '游戏ID',
+  `TableID` int(11) DEFAULT NULL COMMENT '桌号',
+  `ChairID` int(11) DEFAULT NULL COMMENT '座位号',
+  `UserCount` int(11) DEFAULT NULL COMMENT '人数',
+  `HandCard` varchar(10000) DEFAULT NULL COMMENT '手牌',
+  `CellScore` bigint(20) DEFAULT NULL COMMENT '有效投注额',
+  `AllBet` bigint(20) DEFAULT NULL COMMENT '总投注',
+  `Profit` bigint(20) DEFAULT NULL COMMENT '输赢金额',
+  `CurScore` bigint(20) DEFAULT NULL COMMENT '玩家身上剩余筹码',
+  `TakeScore` bigint(20) DEFAULT NULL COMMENT '玩家携带金额',
+  `Revenue` int(11) DEFAULT NULL COMMENT '抽水',
+  `GameStartTime` datetime DEFAULT NULL COMMENT '游戏开始时间',
+  `GameEndTime` timestamp NULL DEFAULT NULL COMMENT '游戏结束时间',
+  `CardValue` varchar(1000) DEFAULT NULL COMMENT '此局开奖资讯(兼容旧版牌型)',
+  `OpValue` bigint(20) DEFAULT NULL COMMENT '原始数据中的Id OpValue',
+  `ChannelID` int(11) DEFAULT NULL COMMENT '代理ID',
+  `LineCode` varchar(50) DEFAULT NULL COMMENT '站台',
+  `GameUserNO` varchar(50) DEFAULT NULL COMMENT '游戏局号',
+  `language` varchar(50) NOT NULL COMMENT '语言',
+  `currency` varchar(50) NOT NULL COMMENT '币别',
+  `CreateTime` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  UNIQUE KEY `uk_no_endtime` (`GameUserNO`,`GameEndTime`),
+  KEY `index_id_GameEndTime` (`id`,`GameEndTime`) USING BTREE,
+  KEY `index_gameuserno` (`GameUserNO`) USING BTREE,
+  KEY `index_gameendtime` (`GameEndTime`) USING BTREE,
+  KEY `index_gameendtime_kindId` (`GameEndTime`,`KindID`) USING BTREE,
+  KEY `index_gameendtime_channel` (`GameEndTime`,`ChannelID`) USING BTREE,
+  KEY `index_gameendtime_account` (`GameEndTime`,`Accounts`) USING BTREE,
+  KEY `index_gameendtime_kindId_serverId` (`GameEndTime`,`KindID`,`ServerID`) USING BTREE,
+  KEY `index_accounts` (`Accounts`) USING BTREE,
+  KEY `index_gamestarttime_account` (`GameStartTime`,`Accounts`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+/*!50100 PARTITION BY RANGE ( UNIX_TIMESTAMP(`GameEndTime`))
+(PARTITION p_20230422 VALUES LESS THAN (1682092800) ENGINE = InnoDB,
+ PARTITION p_20230423 VALUES LESS THAN (1682179200) ENGINE = InnoDB,
+ PARTITION p_20230424 VALUES LESS THAN (1682265600) ENGINE = InnoDB,
+ PARTITION p_20230425 VALUES LESS THAN (1682352000) ENGINE = InnoDB,
+ PARTITION p_20230426 VALUES LESS THAN (1682438400) ENGINE = InnoDB,
+ PARTITION p_20230427 VALUES LESS THAN (1682524800) ENGINE = InnoDB,
+ PARTITION p_20230428 VALUES LESS THAN (1682611200) ENGINE = InnoDB,
+ PARTITION p_20230429 VALUES LESS THAN (1682697600) ENGINE = InnoDB,
+ PARTITION p_20230430 VALUES LESS THAN (1682784000) ENGINE = InnoDB) */;

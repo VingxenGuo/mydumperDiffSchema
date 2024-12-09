@@ -1,0 +1,12 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `aram` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `account` varchar(190) COLLATE utf8mb4_bin NOT NULL,
+  `message` longtext COLLATE utf8mb4_bin,
+  `createdate` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `reader` longtext COLLATE utf8mb4_bin,
+  PRIMARY KEY (`id`) USING BTREE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;

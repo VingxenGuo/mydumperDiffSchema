@@ -1,0 +1,1123 @@
+ly-2
+Start Compare Schema At: Sun Dec  8 06:22:17 CST 2024
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.bgyx_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.bgyx_gameRecord-schema.sql
+134c134,141
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.bjl_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.bjl_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.black_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.black_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.brnn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.brnn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.brzjh_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.brzjh_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.bsxxl_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.bsxxl_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.byb_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.byb_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.cfff_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.cfff_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.csd_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.csd_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.dcpkq_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.dcpkq_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.ddz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.ddz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.djh_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.djh_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.drtb_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.drtb_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.dzpk_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.dzpk_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.erba_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.erba_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.ernn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.ernn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.erren_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.erren_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.fknn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.fknn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.forestparty_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.forestparty_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.gflower_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.gflower_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.gghz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.gghz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.goldenshark_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.goldenshark_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.gswz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.gswz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hbby_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hbby_gameRecord-schema.sql
+134c134,141
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hbjl_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hbjl_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hhdz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hhdz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hjxz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hjxz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hlzjh_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hlzjh_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hyfdzpk_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hyfdzpk_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hyf_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hyf_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.hyfqznn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.hyfqznn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.jdwz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.jdwz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.jgyf_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.jgyf_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.jsgflower_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.jsgflower_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.ksznn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.ksznn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.lh_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.lh_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.lznn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.lznn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.mpnn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.mpnn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.nnby_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.nnby_gameRecord-schema.sql
+134c134,141
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.oslp_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.oslp_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.pdk_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.pdk_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.qznn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.qznn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.qzpj_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.qzpj_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.qzwxs_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.qzwxs_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.sang_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.sang_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.sbhz_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.sbhz_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.sdb_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.sdb_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.ssmd_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.ssmd_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.sss_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.sss_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.stjzb_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.stjzb_gameRecord-schema.sql
+51c51,58
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.tbnn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.tbnn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.thwj_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.thwj_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.xlchq_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.xlchq_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.xzdd_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.xzdd_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.xznn_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.xznn_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.yylm_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.yylm_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.zsyh_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.zsyh_gameRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/detail_record.zzmru_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/detail_record.zzmru_gameRecord-schema.sql
+134c134,141
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/game_record.allGame_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/game_record.allGame_gameRecord-schema.sql
+43c43,50
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: game_statistics.statistics_multibet_analyze-schema.sql
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/KYDB_NEW-schema-post.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/KYDB_NEW-schema-post.sql
+4804c4804,4806
+< 
+---
+>     
+> 	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED; 
+>    
+4806c4808
+<     SELECT ''', in_StatisDate,''' AS StatisDate,ChannelID,SUM(WinGold) AS WinGold,SUM(LostGold) AS LostGold,SUM(CellScore) AS CellScore,SUM(Revenue) AS Revenue,SUM(WinNum) AS WinNum,SUM(LostNum) AS LostNum,count(distinct Account) AS ActiveUsers, A.currency, B.exchangeRate 
+---
+>     SELECT ''', in_StatisDate,''' AS StatisDate,ChannelID,SUM(WinGold) AS WinGold,SUM(LostGold) AS LostGold,SUM(CellScore) AS CellScore,SUM(Revenue) AS Revenue,SUM(WinNum) AS WinNum,SUM(LostNum) AS LostNum,count(distinct A.Account) AS ActiveUsers, A.currency, B.exchangeRate 
+4808a4811
+> 	LEFT JOIN KYDB_NEW.accounts c on A.Account =c.account 
+4810,4812c4813,4817
+<     AND Account IN(SELECT account FROM KYDB_NEW.accounts WHERE createdate>=''',in_StatisDate,''' AND createdate<=''',in_StatisDate,' 23:59:59'') 
+<     GROUP BY ChannelID, currency');        
+<     SET @v_sqlSelect = v_sqlSelect; 
+---
+> 	AND  c.createdate>=''',in_StatisDate,''' AND c.createdate<=''',in_StatisDate,' 23:59:59''
+>     GROUP BY ChannelID, currency');  
+>    
+>    
+>    	SET @v_sqlSelect = v_sqlSelect; 
+4815a4821,4823
+>     
+>     SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+> 
+5845c5853
+< 
+---
+> 	SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED; 
+5873c5881
+< 
+---
+> 	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+6047c6055
+< 
+---
+>   SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED; 
+6739c6747
+< 
+---
+>   SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/KYStatisLogin-schema-post.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/KYStatisLogin-schema-post.sql
+843c843,845
+< CREATE DEFINER=`root`@`%` PROCEDURE `sp_statisLoginData`(IN `in_statisdate` date)
+---
+> CREATE DEFINER=`root`@`%` PROCEDURE `sp_statisLoginData`(
+> 	IN `in_StatisDate` date
+> )
+846a849
+> 	DECLARE v_accountsTblName VARCHAR(100); 
+848a852
+>   SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED; 
+850c854
+< 
+---
+> 	
+873c877
+< 
+---
+> 	SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+944,945c948
+< 	SET v_orderTblName = 'agent_orders'; 
+< 	IF EXISTS(SELECT * FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'orders_record' AND TABLE_NAME = v_orderTblName) THEN
+---
+> 	IF EXISTS(SELECT * FROM information_schema.TABLES WHERE TABLE_SCHEMA = 'orders_record' AND TABLE_NAME = 'agent_orders') THEN
+947,949c950,954
+< 						SELECT DISTINCT ''', in_statisdate,''' AS StatisDate,ChannelID,CreateUser 
+< 						FROM orders_record.', v_orderTblName,' 
+< 						WHERE OrderTime >= ''', in_statisdate,''' AND OrderTime <= ''', in_statisdate,' 23:59:59.998'' AND OrderType =2 AND OrderStatus = 0'); 
+---
+> 						SELECT DISTINCT ''', in_statisdate,''' AS StatisDate, agentOrders.ChannelID, agentOrders.CreateUser 
+> 						FROM orders_record.agent_orders AS agentOrders
+> 						INNER JOIN game_api.accounts AS gaa
+> 						ON agentOrders.CreateUser = gaa.account
+> 						WHERE agentOrders.OrderTime >= ''', in_statisdate,''' AND agentOrders.OrderTime <= ''', in_statisdate,' 23:59:59.998'' AND agentOrders.OrderType =2 AND agentOrders.OrderStatus = 0'); 
+978c983
+< 
+---
+>   SET SESSION TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_agent_orders_detail_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_agent_orders_month_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_keep_login_users_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_keep_login_validusers_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_location_game_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_login_game_detail_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_login_game_month_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_login_game_sum_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_login_hall_detail_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisLogin.statis_login_hall_month_202412-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_allgames202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_bgyx202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_bjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_black202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_brnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_brzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_bsxxl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_byb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_cfff202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_csd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_dcpkq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_ddz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_djh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_drtb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_dzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_erba202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_ernn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_erren202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_fknn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_forestparty202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_gflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_gghz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_goldenshark202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_gswz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hbby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hbjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hhdz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hjxz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hlzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hyfdzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_hyfqznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_jdwz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_jgyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_jsgflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_ksznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_lh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_lznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_mpnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_nnby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_oslp202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_pdk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_qznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_qzpj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_qzwxs202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_sang202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_sbhz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_sdb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_ssmd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_sss202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_stjzb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_tbnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_thwj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_xlchq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_xzdd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_xznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_yylm202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_zsyh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_BST.statis_zzmru202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_allgames202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_bgyx202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_bjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_black202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_brnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_brzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_bsxxl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_byb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_cfff202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_csd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_dcpkq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_ddz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_djh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_drtb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_dzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_erba202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_ernn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_erren202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_fknn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_forestparty202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_gflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_gghz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_goldenshark202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_gswz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hbby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hbjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hhdz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hjxz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hlzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hyfdzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_hyfqznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_jdwz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_jgyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_jsgflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_ksznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_lh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_lznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_mpnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_nnby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_oslp202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_pdk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_qznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_qzpj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_qzwxs202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_sang202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_sbhz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_sdb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_ssmd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_sss202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_stjzb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_tbnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_thwj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_xlchq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_xzdd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_xznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_yylm202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_zsyh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers_EST.statis_zzmru202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_allgames202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bgyx202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bgyx202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bjl202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_black202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_black202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_brnn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_brnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_brzjh202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_brzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bsxxl202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_bsxxl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_byb202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_byb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_cfff202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_cfff202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_csd202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_csd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_dcpkq202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_dcpkq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ddz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ddz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_djh202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_djh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_drtb202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_drtb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_dzpk202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_dzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_erba202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_erba202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ernn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ernn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_erren202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_erren202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_fknn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_fknn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_forestparty202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_forestparty202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gflower202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gghz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gghz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_goldenshark202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_goldenshark202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gswz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_gswz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hbby202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hbby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hbjl202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hbjl202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hhdz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hhdz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hjxz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hjxz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hlzjh202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hlzjh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyf202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyfdzpk202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyfdzpk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyfqznn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_hyfqznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jdwz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jdwz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jgyf202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jgyf202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jsgflower202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_jsgflower202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ksznn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ksznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_lh202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_lh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_lznn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_lznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_month202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_mpnn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_mpnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_nnby202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_nnby202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_oslp202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_oslp202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_pdk202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_pdk202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qznn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qzpj202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qzpj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qzwxs202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_qzwxs202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sang202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sang202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sbhz202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sbhz202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sdb202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sdb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ssmd202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_ssmd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sss202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_sss202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_stjzb202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_stjzb202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_tbnn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_tbnn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_thwj202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_thwj202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xlchq202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xlchq202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xzdd202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xzdd202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xznn202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_xznn202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_yylm202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_yylm202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_zsyh202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_zsyh202412_users-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_zzmru202412_users_room-schema.sql
+Only in /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data: KYStatisUsers.statis_zzmru202412_users-schema.sql
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/orders_record.agent_orders-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/orders_record.agent_orders-schema.sql
+115c115,122
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/orders_record.player_orders-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/orders_record.player_orders-schema.sql
+116c116,123
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/orders_record.single_orders-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/orders_record.single_orders-schema.sql
+119c119,126
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/score_record.hyfdzpk_gameScoreRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/score_record.hyfdzpk_gameScoreRecord-schema.sql
+131c131,138
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/timerTask.vendor_missing_gameRecord-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/timerTask.vendor_missing_gameRecord-schema.sql
+136c136,143
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/wallet.agents_history-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/wallet.agents_history-schema.sql
+109c109,116
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+diff '--exclude=metadata' /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/previous/data/wallet.players_history-schema.sql /root/schema-compare/mydumper-tool/backup/prod.server.config/ly-2/latest/data/wallet.players_history-schema.sql
+114c114,121
+<  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB) */;
+---
+>  PARTITION p_20241204 VALUES LESS THAN (1733241600) ENGINE = InnoDB,
+>  PARTITION p_20241205 VALUES LESS THAN (1733328000) ENGINE = InnoDB,
+>  PARTITION p_20241206 VALUES LESS THAN (1733414400) ENGINE = InnoDB,
+>  PARTITION p_20241207 VALUES LESS THAN (1733500800) ENGINE = InnoDB,
+>  PARTITION p_20241208 VALUES LESS THAN (1733587200) ENGINE = InnoDB,
+>  PARTITION p_20241209 VALUES LESS THAN (1733673600) ENGINE = InnoDB,
+>  PARTITION p_20241210 VALUES LESS THAN (1733760000) ENGINE = InnoDB,
+>  PARTITION p_20241211 VALUES LESS THAN (1733846400) ENGINE = InnoDB) */;
+End At: Sun Dec  8 06:24:57 CST 2024

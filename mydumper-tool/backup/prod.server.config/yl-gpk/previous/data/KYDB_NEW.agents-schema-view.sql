@@ -1,0 +1,16 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+DROP TABLE IF EXISTS `agents`;
+DROP VIEW IF EXISTS `agents`;
+SET @PREV_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT;
+SET @PREV_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS;
+SET @PREV_COLLATION_CONNECTION=@@COLLATION_CONNECTION;
+SET character_set_client = utf8mb4;
+SET character_set_results = utf8mb4;
+SET collation_connection = utf8mb4_general_ci;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `agents` AS select `agent`.`ChannelID` AS `agent`,`agent`.`UID` AS `parent`,`agent`.`MoneyType` AS `moneyType`,`wallet`.`money` AS `money`,`agent`.`WhiteIP` AS `whiteip`,(case `agent`.`IsDelete` when 0 then 0 else 1 end) AS `status`,`agent`.`ProxyURL` AS `proxyurl`,`agent`.`Deskey` AS `desKey`,`agent`.`Md5key` AS `md5Key`,`agent`.`CallBackURL` AS `callbackurl`,'' AS `lineCodes`,`agent`.`exRate` AS `exRate`,`agent`.`publicId` AS `publicId`,`agent`.`ProxyRevenue` AS `pumping`,`agent`.`ISPushbutton` AS `backmain`,`agent`.`CallBackLink` AS `oflinebackurl`,`agent`.`feedEnabled` AS `feedEnabled`,`agent`.`logourl` AS `logourl`,(case `agent`.`Timezone` when 0 then 8 when 1 then -(4) else 0 end) AS `timezone`,`agent`.`isPayPopUps` AS `isPayPopUps`,`agent`.`isAutoPay` AS `isAutoPay`,`agent`.`walletType` AS `walletType`,`agent`.`sboStatus` AS `sboStatus`,`agent`.`CreateDate` AS `createdate`,`agent`.`Accounts` AS `accounts`,`agent`.`NickName` AS `nickName`,`agent`.`CreateUser` AS `createUser`,`agent`.`AccountingFor` AS `accountingFor`,`agent`.`sportAccountingFor` AS `sportAccountingFor`,`agent`.`LastloginTime` AS `lastLoginTime`,`agent`.`Cooperation` AS `cooperation`,`agent`.`BusinessAccount` AS `businessAccount`,`agent`.`SingleOrSystem` AS `singleOrSystem` from (`KYDB_NEW`.`Sys_ProxyAccount` `agent` join `wallet`.`agents` `wallet` on((`agent`.`ChannelID` = `wallet`.`channelId`)));
+SET character_set_client = @PREV_CHARACTER_SET_CLIENT;
+SET character_set_results = @PREV_CHARACTER_SET_RESULTS;
+SET collation_connection = @PREV_COLLATION_CONNECTION;

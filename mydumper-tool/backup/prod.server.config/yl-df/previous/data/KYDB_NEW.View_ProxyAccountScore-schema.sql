@@ -1,0 +1,41 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE IF NOT EXISTS `View_ProxyAccountScore`(
+`UID` int,
+`ChannelID` int,
+`Accounts` int,
+`UserPWD` int,
+`NickName` int,
+`UserStatus` int,
+`ChannelValue` int,
+`CreateUser` int,
+`CreateDate` int,
+`MoneyType` int,
+`AccountingFor` int,
+`MatchRange` int,
+`WhiteIP` int,
+`ProxyURL` int,
+`Mark` int,
+`IsDelete` int,
+`Deskey` int,
+`Md5key` int,
+`agentid` int,
+`LastloginTime` int,
+`CallBackURL` int,
+`DomainBind` int,
+`FormalLink` int,
+`DemoOutLink` int,
+`DemoLink` int,
+`Forbidden` int,
+`Loadimg` int,
+`Logo` int,
+`LinecodeSet` int,
+`exRate` int,
+`publicId` int,
+`ProxyRevenue` int,
+`UserAccount` int,
+`ISPushbutton` int,
+`CallBackLink` int
+) ENGINE=MEMORY;

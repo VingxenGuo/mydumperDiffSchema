@@ -1,0 +1,40 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `agents` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `parent` int(11) DEFAULT NULL,
+  `moneytype` int(11) DEFAULT NULL COMMENT '货币类型',
+  `money` bigint(20) DEFAULT '0' COMMENT '代理分数',
+  `whiteip` text COMMENT '白名单',
+  `status` int(11) DEFAULT '0' COMMENT '代理状态 0正常1封停',
+  `proxyurl` varchar(2000) DEFAULT NULL COMMENT '代理跳转地址',
+  `agent` bigint(20) DEFAULT NULL COMMENT '代理编号',
+  `desKey` varchar(500) NOT NULL COMMENT 'des加密key',
+  `md5Key` varchar(500) NOT NULL COMMENT 'md5key',
+  `callbackurl` varchar(2000) DEFAULT NULL COMMENT '回调地址',
+  `lineCodes` longtext,
+  `exRate` int(11) DEFAULT NULL COMMENT '汇率',
+  `publicId` int(11) DEFAULT NULL COMMENT '公共匹配队列id',
+  `pumping` float DEFAULT NULL COMMENT '抽水',
+  `createdate` timestamp NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `oflinebackurl` varchar(2000) DEFAULT NULL COMMENT '玩家下线通知代理回调地址',
+  `backmain` int(11) DEFAULT NULL COMMENT 'backmain',
+  `feedEnabled` int(11) DEFAULT '0',
+  `wallettype` int(11) NOT NULL DEFAULT '1' COMMENT '錢包型態 1:預設 2:單一',
+  `logourl` varchar(2000) DEFAULT NULL,
+  `timeZone` int(11) DEFAULT '8',
+  `KillRate` float DEFAULT NULL,
+  `WhiteIPInherit` tinyint(4) DEFAULT '0',
+  `automatch` tinyint(1) DEFAULT '1' COMMENT '1:自动匹配下一局 0:不自动匹配下一局',
+  `rechargeStatus` int(11) DEFAULT '0',
+  `rechargeURL` varchar(200) DEFAULT NULL,
+  `hbState` tinyint(4) DEFAULT '1',
+  `sbStatus` tinyint(4) NOT NULL DEFAULT '0',
+  `sbUrl` varchar(255) DEFAULT NULL,
+  `convertMultiple` decimal(12,6) NOT NULL DEFAULT '1.000000',
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `index_agent` (`agent`) USING BTREE,
+  KEY `wallettype` (`wallettype`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8mb4;

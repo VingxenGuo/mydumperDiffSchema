@@ -1,0 +1,243 @@
+2024-12-08 06:28:51 [INFO] - MyDumper backup version: 0.16.5-1
+2024-12-08 06:28:51 [INFO] - Using 4 dumper threads
+2024-12-08 06:28:51 [WARNING] - Using trx_consistency_only, binlog coordinates will not be accurate if you are writing to non transactional tables.
+2024-12-08 06:28:51 [INFO] - Omit list file contains 3 tables to skip
+
+2024-12-08 06:28:51 [INFO] - Connection via default library settings using password:
+	Host: 104.198.126.11
+	Port: 3306
+	User: root
+2024-12-08 06:28:51 [INFO] - Connected to unknown 8.0.31
+2024-12-08 06:28:51 [INFO] - Started dump at: 2024-12-08 06:28:51
+2024-12-08 06:28:51 [INFO] - Stopping replica
+2024-12-08 06:28:51 [WARNING] - Not able to stop replica: Access denied; you need (at least one of) the SUPER or REPLICATION_SLAVE_ADMIN privilege(s) for this operation
+2024-12-08 06:28:51 [INFO] - Written slave status
+2024-12-08 06:28:51 [INFO] - Acquiring Global lock
+2024-12-08 06:28:51 [INFO] - FLUSH NO_WRITE_TO_BINLOG TABLES: OK
+2024-12-08 06:28:51 [INFO] - FLUSH TABLES WITH READ LOCK: OK
+2024-12-08 06:28:51 [INFO] - conf created
+2024-12-08 06:28:51 [INFO] - End job creation
+2024-12-08 06:28:51 [INFO] - Creating workers
+2024-12-08 06:28:52 [INFO] - Thread 4: connected using MySQL connection ID 43025
+2024-12-08 06:28:52 [INFO] - Thread 1: connected using MySQL connection ID 43024
+2024-12-08 06:28:52 [INFO] - Thread 3: connected using MySQL connection ID 43026
+2024-12-08 06:28:52 [INFO] - Thread 2: connected using MySQL connection ID 43027
+2024-12-08 06:28:52 [DEBUG] - Thread 4: Start transaction #0
+2024-12-08 06:28:52 [DEBUG] - Thread 1: Start transaction #0
+2024-12-08 06:28:52 [DEBUG] - Thread 3: Start transaction #0
+2024-12-08 06:28:52 [DEBUG] - Thread 2: Start transaction #0
+2024-12-08 06:28:52 [INFO] - Thread 2: Creating Jobs
+2024-12-08 06:28:52 [INFO] - Thread 3: Creating Jobs
+2024-12-08 06:28:52 [INFO] - Thread 1: Creating Jobs
+2024-12-08 06:28:52 [INFO] - Thread 4: Creating Jobs
+2024-12-08 06:28:52 [INFO] - Transactions started, unlocking tables
+2024-12-08 06:28:52 [INFO] - UNLOCK TABLES: OK
+2024-12-08 06:28:52 [INFO] - Waiting database finish
+2024-12-08 06:28:52 [INFO] - Thread 4: dumping db information for `flyway`
+2024-12-08 06:28:52 [INFO] - Thread 3: dumping db information for `hogo_br_global`
+2024-12-08 06:28:52 [INFO] - Thread 1: dumping db information for `hogo_br_lot`
+2024-12-08 06:28:52 [INFO] - Thread 2: dumping db information for `hogo_br_play`
+2024-12-08 06:28:52 [INFO] - Thread 1: dumping db information for `hogo_br_sale`
+2024-12-08 06:28:52 [INFO] - Thread 4: dumping db information for `hogo_logs_gamelog`
+2024-12-08 06:28:52 [INFO] - Thread 3: dumping db information for `hogo_logs_userlog`
+2024-12-08 06:28:53 [INFO] - Thread 4: dumping db information for `tool`
+2024-12-08 06:28:58 [INFO] - Thread 3: Schema queue
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema create for `flyway`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema create for `hogo_br_global`
+2024-12-08 06:28:58 [INFO] - Thread 4: Schema queue
+2024-12-08 06:28:58 [INFO] - Thread 4: dumping schema create for `hogo_br_lot`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema create for `hogo_br_play`
+2024-12-08 06:28:58 [INFO] - Thread 4: dumping schema create for `hogo_br_sale`
+2024-12-08 06:28:58 [INFO] - Thread 2: Schema queue
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema create for `hogo_logs_gamelog`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema create for `hogo_logs_userlog`
+2024-12-08 06:28:58 [INFO] - Thread 1: Schema queue
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema create for `tool`
+2024-12-08 06:28:58 [INFO] - Shutdown jobs for less locking enqueued
+2024-12-08 06:28:58 [INFO] - Waiting threads to complete
+2024-12-08 06:28:58 [INFO] - Thread 4: dumping SP and VIEWs for `hogo_br_sale`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping SP and VIEWs for `tool`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `flyway`.`flyway_schema_history`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`activities`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`activity_attributes`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`activity_integrations`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`activity_user_variable`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`admin_columns`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`admin_menu`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`admin_operation_log`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`admin_permission_menu`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`admin_permissions`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`admin_role_column`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`admin_role_menu`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`admin_role_menu20240227`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`admin_role_permissions`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`admin_role_users`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`admin_roles`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`admin_users`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`announcements`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`bank_account_attributes`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`bank_accounts`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`bank_attributes`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`banks`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`banners`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`brokerage`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`brokerage_date`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`channel_attributes`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`channel_attributes_keys`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`channel_edges`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`channel_wallet_credit`
+2024-12-08 06:28:58 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`channel_wallet_ledgers`
+2024-12-08 06:28:58 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`channel_wallet_order`
+2024-12-08 06:28:58 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`channel_wallet_statistics`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`channel_wallets`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`channels`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`check_in_awards`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`check_in_users`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`daily_report_all`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`daily_report_user`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`domains`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`exchange_rates`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`favicons`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`footers`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`game_integrations`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`games`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`gateway_attributes`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`gateway_banks`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`gateway_bindings`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`gateway_integrations`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`gateways`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`invite_reward_logs`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`job_batches`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`jobs`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`label_users`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`logos`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`labels`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`migrations`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`oauth_access_tokens`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`oauth_auth_codes`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`oauth_clients`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`oauth_personal_access_clients`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`oauth_refresh_tokens`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`one_touch_users`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`password_resets`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`promotion`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`redemptions`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`referral_edges`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`referral_statistics`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`referrals`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`rely_bet`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`shortcuts`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`styles`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`sys_cron_partition`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`sys_links`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`sys_prolog`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`topups`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`treasure_chest_rewards`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`treasure_chests`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`user_login_logs`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`user_online_detail`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`user_ranking_list`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`user_ranking_list_total`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`user_statistics`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`user_vip_award`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`user_vip_award_date`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`users`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`vips`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`wallet_ledgers`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`wallet_ledgers_202402`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`wallet_ledgers_202403`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`wallet_ledgers_202404`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`wallet_ledgers_202405`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`wallet_ledgers_202406`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`wallet_ledgers_202407`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`wallet_ledgers_202408`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_sale`.`wallets`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_sale`.`wallet_statistics`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_sale`.`white_ip_list`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_sale`.`withdrawals`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`bridge_order`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`bridge_order_202403`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`bridge_order_202404`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`bridge_order_202405`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`bridge_order_202406`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`bridge_order_202407`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`bridge_order_202408`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`bridge_order_backlog`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`cq9_log`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`evo_log`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`fc_log`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`migrations`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`pg_log`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1000`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1001`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1002`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1003`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1004`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1006`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1005`
+2024-12-08 06:28:59 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1007`
+2024-12-08 06:28:59 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1008`
+2024-12-08 06:28:59 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1010`
+2024-12-08 06:28:59 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1009`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1011`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1012`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1014`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1013`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1015`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1016`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1017`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1018`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1019`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1020`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1022`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1021`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1023`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1024`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1025`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1026`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1027`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1028`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1030`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1029`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1031`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1032`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1033`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1034`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_1035`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_1036`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_1037`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_1038`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_all`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_all_202403`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_all_202404`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_all_202405`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_all_202406`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`playlist_all_202407`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`playlist_all_202408`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`playlist_all_backlog`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`playlist_bet_temp`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`pp_log`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`vp_log`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`vp_order`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`vp_order_202402`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`vp_order_202403`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`vp_order_202404`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping schema for `hogo_br_play`.`vp_order_202405`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping schema for `hogo_br_play`.`vp_order_202406`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping schema for `hogo_br_play`.`vp_order_202407`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping schema for `hogo_br_play`.`vp_order_202408`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping triggers for `hogo_br_lot`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping triggers for `flyway`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping triggers for `hogo_br_global`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping triggers for `hogo_logs_gamelog`
+2024-12-08 06:29:00 [INFO] - Thread 4: dumping triggers for `hogo_logs_userlog`
+2024-12-08 06:29:00 [INFO] - Thread 3: dumping triggers for `hogo_br_sale`
+2024-12-08 06:29:00 [INFO] - Thread 1: dumping triggers for `tool`
+2024-12-08 06:29:00 [INFO] - Thread 2: dumping triggers for `hogo_br_play`
+2024-12-08 06:29:00 [INFO] - Thread 4: shutting down
+2024-12-08 06:29:00 [INFO] - Thread 1: shutting down
+2024-12-08 06:29:01 [INFO] - Thread 3: shutting down
+2024-12-08 06:29:03 [INFO] - Thread 2: shutting down
+2024-12-08 06:29:03 [INFO] - Queue count: 0 0 0 0 0
+2024-12-08 06:29:03 [INFO] - Main connection closed
+2024-12-08 06:29:03 [INFO] - Finished dump at: 2024-12-08 06:29:03

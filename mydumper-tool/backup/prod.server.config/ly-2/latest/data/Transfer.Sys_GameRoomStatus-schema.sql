@@ -1,0 +1,10 @@
+/*!40101 SET NAMES binary*/;
+/*!40014 SET FOREIGN_KEY_CHECKS=0*/;
+/*!40101 SET SQL_MODE='NO_AUTO_VALUE_ON_ZERO,NO_ENGINE_SUBSTITUTION'*/;
+/*!40103 SET TIME_ZONE='+00:00' */;
+CREATE TABLE `Sys_GameRoomStatus` (
+  `channelid` int(10) NOT NULL COMMENT '代理ID 0為平台',
+  `gameid` int(10) DEFAULT NULL COMMENT '遊戲ID',
+  `serverid` int(10) DEFAULT NULL COMMENT '遊戲房間ID',
+  `status` int(11) DEFAULT NULL COMMENT '房間状态 0開啟 1關閉'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
