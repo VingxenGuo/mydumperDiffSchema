@@ -1,92 +1,70 @@
-# Schema-compare
+# Mydumper Diff Schema
 
+這是一個用於定時備份 MySQL 資料庫結構（Schema）並進行差異比對的工具組。主要包含兩個功能模組：
 
+1. **mydumper-tool**: 負責定時傾印資料庫結構，並與上一次的備份進行比對。
+2. **diff-wc-prod-tool**: 負責比對不同環境（例如 WC 環境與 Prod 環境）之間的結構差異。
 
-## Getting started
+## 目錄結構
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+- `mydumper-tool/`: 包含結構傾印腳本與郵件通知功能。
+- `diff-wc-prod-tool/`: 包含跨環境結構比對腳本。
+- `backup/`: 存放備份資料與比對結果（由腳本自動產生）。
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## 功能說明
 
-## Add your files
+### 1. 結構傾印與歷史比對 (mydumper-tool)
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+使用 `dumper.sh` 腳本來執行。它會：
+- 根據設定檔連線至資料庫。
+- 使用 `mydumper` 傾印目前的資料庫結構。
+- 將本次傾印結果與上一次（`previous`）的結果進行 `diff`。
+- 將比對結果打包成 `.tar.gz` 並發送郵件通知。
 
+**執行方式示例:**
+```bash
+bash ./mydumper-tool/dumper.sh prod.server.config
 ```
-cd existing_repo
-git remote add origin https://gitlab.go2cloudten.com/tools/schema-compare.git
-git branch -M main
-git push -uf origin main
+
+### 2. 跨環境結構比對 (diff-wc-prod-tool)
+
+使用 `diff-wc-prod.sh` 腳本。它會：
+- 讀取 `diff-wc-prod.config` 中的路徑設定。
+- 比對指定環境中「最新（latest）」的結構傾印檔。
+- 產生差異報告並透過郵件發送。
+
+**執行方式示例:**
+```bash
+bash ./diff-wc-prod-tool/diff-wc-prod.sh
 ```
 
-## Integrate with your tools
+## 定時執行設定 (Crontab)
 
-- [ ] [Set up project integrations](https://gitlab.go2cloudten.com/tools/schema-compare/-/settings/integrations)
+為了達成自動化監控，請將以下設定加入 `crontab`。
 
-## Collaborate with your team
+使用 `crontab -e` 編輯設定：
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+```cron
+# 每週日 UTC+8 6:00 執行 Prod 環境的結構備份與歷史比對
+0 6 * * 0 /bin/bash {PROJECT_PATH}/mydumper-tool/dumper.sh prod.server.config > {PROJECT_PATH}/mydumper-tool/diff_prod.log
 
-## Test and Deploy
+# 每週一 UTC+8 6:00 執行 WC 與 Prod 環境間的結構差異比對
+0 6 * * 1 /bin/bash {PROJECT_PATH}/diff-wc-prod-tool/diff-wc-prod.sh > {PROJECT_PATH}/diff-wc-prod-tool/diff_wc_prod.log
+```
 
-Use the built-in continuous integration in GitLab.
+> [!NOTE]
+> 請確保路徑 `{PROJECT_PATH}` 與您實際存放專案的路徑一致。
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## 設定與需求
 
-***
+- **Mydumper**: 系統需安裝 `mydumper` 工具。
+- **Python 3**: 用於執行 `sendmail.py` 發送郵件。
+- **設定檔**:
+  - `mydumper-tool/*.server.config`: 設定資料庫連線資訊（CSV 格式）。
+  - `mydumper-tool/sendmail.config`: 設定郵件發送資訊（SMTP, 收件者等）。
+  - `diff-wc-prod-tool/diff-wc-prod.config`: 設定要比對的目錄路徑。
+  - `mydumper-tool/omit_file.txt`: 設定傾印時要忽略的檔案或表格。
 
-# Editing this README
+## 郵件通知
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+腳本執行完畢後，會自動調用 `sendmail.py`。請務必在 `sendmail.config` 中正確設定您的 SMTP 伺服器與授權密碼（如 Gmail 的應用程式密碼）。
