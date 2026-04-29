@@ -7,35 +7,50 @@ from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
 from email import encoders
 
-py_path = os.path.dirname(__file__)
+py_path = os.path.dirname(os.path.abspath(__file__))
 # Load SMTP settings from config file
 config_dict = {}
-with open(py_path + '/sendmail.config', 'r', encoding='UTF-8') as file:
+config_file_path = os.path.join(py_path, 'sendmail.config')
+
+with open(config_file_path, 'r', encoding='UTF-8') as file:
     flie_lines = file.readlines()
     for line in flie_lines:
+        if '=' not in line:
+            continue
         key, value = line.split('=')
         config_dict[key.strip()] = value.strip()
 
-print('can read smtp.config')
+print('Successfully read sendmail.config')
 # SMTP server configuration
 smtp_server = config_dict['smtp_server']
-port = config_dict['port']
+port = int(config_dict['port'])
 sender_email = config_dict['sender_email']
 receiver_emails = config_dict['receiver_emails']
 password = config_dict['password']
 subject = config_dict['subject']
 body = config_dict['body']
-attachment_path = py_path + '/' + config_dict['attachment_path']
+
+# If a command line argument is provided, use it as the attachment path
+if len(sys.argv) > 1:
+    attachment_path = sys.argv[1]
+    print(f"Using command line argument as attachment: {attachment_path}")
+else:
+    # Use path from config, relative to the script location
+    attachment_path = os.path.join(py_path, config_dict['attachment_path'])
 
 # Receiver email addresses (split by commas)
-receiver_emails = receiver_emails.split(',')
+receiver_emails = [email.strip() for email in receiver_emails.split(',')]
 
-# file_pattern = "./backup/prod.server.config/diff_result/*.tar.gz"
+# Find files matching the pattern
 attachment_files = glob.glob(attachment_path)
-attachment_files = attachment_files[0]
+
 if not attachment_files:
     print(f"Error: No files found matching pattern '{attachment_path}'")
     sys.exit(1)
+
+# Pick the first matching file
+target_file = attachment_files[0]
+print(f"Sending file: {target_file}")
 
 # Create multipart message object
 message = MIMEMultipart()
@@ -48,7 +63,7 @@ message.attach(MIMEText(body, 'plain'))
 
 # Add attachment
 try:
-    with open(attachment_files, "rb") as attachment:
+    with open(target_file, "rb") as attachment:
         part = MIMEBase("application", "octet-stream")
         part.set_payload(attachment.read())
 
@@ -58,7 +73,7 @@ try:
     # Add attachment header
     part.add_header(
         "Content-Disposition",
-        f"attachment; filename= {os.path.basename(attachment_files)}",
+        f"attachment; filename= {os.path.basename(target_file)}",
     )
 
     # Attach the file to the email
