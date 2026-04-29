@@ -1,5 +1,9 @@
 # all wc prod diff result
 ./diff-wc-prod-tool/diff_result/
-
+./diff-wc-prod-tool/diff-wc-prod.config
+./diff-wc-prod-tool/sendmail.config
 # mydumper tool backup folder
 ./mydumper-tool/backup/
+./mydumper-tool/wc.server.config
+./mydumper-tool/prod.server.config
+./mydumper-tool/sendmail.config
